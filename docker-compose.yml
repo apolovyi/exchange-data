@@ -11,5 +11,5 @@ services:
       --timerange ${START_DATE:-20200101}-${END_DATE:-20220201}
       --timeframe 5m 15m 1h 1d
       --datadir user_data/data/${EXCHANGE:-kucoin}
-      --config user_data/data/pairlists.json
+      --config user_data/data/pairlist_150.json
       --config user_data/data/${EXCHANGE:-kucoin}-usdt-static.json
