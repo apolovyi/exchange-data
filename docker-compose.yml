@@ -12,4 +12,3 @@ services:
       --timeframe 5m 15m 1h 1d
       --datadir user_data/data/${EXCHANGE:-kucoin}
       --config user_data/data/pairlist_150.json
-      --config user_data/data/${EXCHANGE:-kucoin}-usdt-static.json
