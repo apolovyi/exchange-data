@@ -7,7 +7,7 @@ concurrency: 1
 jobs:
 
   Download-Exchange-Data:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
       fail-fast: false
