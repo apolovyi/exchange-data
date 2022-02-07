@@ -56,6 +56,7 @@ jobs:
         continue-on-error: true
         run: |
           git add kucoin/*.json.gz
+          git status
           git commit -a -m "Update Kucoin exchange data from ${{ steps.kucoin-dates.outputs.start_date }} to ${{ steps.kucoin-dates.outputs.end_date }}"
 
       - name: Push changes
