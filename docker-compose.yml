@@ -12,7 +12,7 @@ services:
       --days 200
       --config user_data/data/pairlists.json
       --datadir user_data/data/${EXCHANGE:-kucoin}
-      --config user_data/data/pairlist_150.json
       --config user_data/data/dataformat_json.json
-      --config user_data/data/kucoin-usdt-static.json
+      --config user_data/data/pairlist_150.json
+#      --config user_data/data/kucoin-usdt-static.json
 #      --timerange ${START_DATE:-20220101}-${END_DATE:-20220201}
