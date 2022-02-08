@@ -4,4 +4,6 @@ hyperopts
 logs
 notebooks
 plot
+kucoin-json
 .idea
+.DS_Store
