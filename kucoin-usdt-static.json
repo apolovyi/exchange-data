@@ -3,7 +3,6 @@
         "name": "kucoin",
         "pair_whitelist": [
             "2CRZ/USDT",
-            "2CRZ/USDT",
             "AAVE/USDT",
             "ACE/USDT",
             "ADA/USDT",
