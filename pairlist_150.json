@@ -3,7 +3,6 @@
 		"name": "kucoin",
 		"pair_whitelist": [
 			"BTC/USDT",
-			"BTC/USDT",
 			"ETH/USDT",
 			"LUNA/USDT",
 			"ATOM/USDT",
