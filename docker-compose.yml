@@ -13,7 +13,7 @@ services:
       --config user_data/data/main.json
       --datadir user_data/data/${EXCHANGE:-kucoin}
       --config user_data/data/dataformat_gz.json
-      --config user_data/data/pairlist_160.json
-#      --config user_data/data/pairlist_test.json
+      --config user_data/data/pairlist_test.json
+#      --config user_data/data/pairlist_160.json
 #      --days 200
 #      --config user_data/data/kucoin-usdt-static.json
