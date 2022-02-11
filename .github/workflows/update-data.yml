@@ -1,6 +1,6 @@
 name: Update Data
 
-on: [push,workflow_dispatch]
+on: [ push,workflow_dispatch ]
 
 concurrency: 1
 
@@ -55,7 +55,7 @@ jobs:
         if: steps.kucoin-data-download.outcome == 'success'
         continue-on-error: true
         run: |
-          git add kucoin/*.json.gz
+          git add kucoin/*.json
           git commit -a -m "Update Kucoin exchange data from ${{ steps.kucoin-dates.outputs.start_date }} to ${{ steps.kucoin-dates.outputs.end_date }}"
 
       - name: Push changes
