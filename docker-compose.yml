@@ -11,7 +11,7 @@ services:
       --timeframe 5m 15m 1h 1d
       --config user_data/data/main.json
       --datadir user_data/data/${EXCHANGE:-kucoin}
-      --config user_data/data/dataformat_gz.json
+      --config user_data/data/dataformat_json.json
       --config user_data/data/pairlist_160.json
       --days 60
 #      --timerange ${START_DATE:-20220101}-${END_DATE:-20220201}

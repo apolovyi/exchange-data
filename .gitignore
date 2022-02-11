@@ -5,5 +5,6 @@ logs
 notebooks
 plot
 kucoin-json
+kucoin-gz
 .idea
 .DS_Store
