@@ -12,7 +12,7 @@ services:
       --config user_data/data/main.json
       --datadir user_data/data/${EXCHANGE:-kucoin}
       --config user_data/data/dataformat_json.json
-      --config user_data/data/pairlist_160.json
+      --config user_data/data/pairlist_150.json
       --timerange ${START_DATE:-20220101}-${END_DATE:-20220201}
 #      --days 60
 #      --config user_data/data/pairlist_test.json
